@@ -10,10 +10,10 @@ The tool requires Java 1.8 to run, everything else is contained in the zip archi
 Extract the zip archive somewhere on your diskdrive.
 
 ## Usage
-To run the application execute the following command on your terminal: 
+To run the application execute the following command on your terminal from the directory where you extracted the tool: 
 
 ``` shell
-logmasker -in [input directory] -out [output directory]
+bin/logmasker -in [input directory] -out [output directory]
 ```
 
 The input directory contains all the logfiles you want to obfuscate. The output directory will contain the obfuscated log files.
